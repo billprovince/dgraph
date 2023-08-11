@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/dgraph-io/dgraph/graphql/testdata/datagen/cmd"
+import "github.com/billprovince/dgraph/graphql/testdata/datagen/cmd"
 
 func main() {
 	cmd.Execute()

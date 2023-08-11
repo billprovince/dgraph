@@ -22,7 +22,7 @@ import (
 	"unsafe"
 
 	"github.com/dgraph-io/dgo/v230/protos/api"
-	"github.com/dgraph-io/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/protos/pb"
 )
 
 const sizeOfBucket = 144

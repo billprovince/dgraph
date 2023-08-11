@@ -1,4 +1,4 @@
-module github.com/dgraph-io/dgraph
+module github.com/billprovince/dgraph
 
 go 1.19
 

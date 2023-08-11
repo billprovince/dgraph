@@ -24,11 +24,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/dgraph-io/dgraph/algo"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/types/facets"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/algo"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/types"
+	"github.com/billprovince/dgraph/types/facets"
+	"github.com/billprovince/dgraph/x"
 )
 
 type pathInfo struct {

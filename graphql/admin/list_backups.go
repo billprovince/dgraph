@@ -22,10 +22,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/dgraph-io/dgraph/graphql/resolve"
-	"github.com/dgraph-io/dgraph/graphql/schema"
-	"github.com/dgraph-io/dgraph/worker"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/graphql/resolve"
+	"github.com/billprovince/dgraph/graphql/schema"
+	"github.com/billprovince/dgraph/worker"
+	"github.com/billprovince/dgraph/x"
 )
 
 type lsBackupInput struct {

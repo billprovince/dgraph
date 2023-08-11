@@ -32,11 +32,11 @@ import (
 
 	"github.com/dgraph-io/badger/v4"
 	"github.com/dgraph-io/dgo/v230"
-	"github.com/dgraph-io/dgraph/ee"
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/ee"
+	"github.com/billprovince/dgraph/posting"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/types"
+	"github.com/billprovince/dgraph/x"
 )
 
 // KeyFile is set to the path of the file containing the key. Used for testing purposes only.

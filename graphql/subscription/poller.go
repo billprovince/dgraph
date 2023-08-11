@@ -29,9 +29,9 @@ import (
 	"github.com/dgryski/go-farm"
 	"github.com/golang/glog"
 
-	"github.com/dgraph-io/dgraph/graphql/resolve"
-	"github.com/dgraph-io/dgraph/graphql/schema"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/graphql/resolve"
+	"github.com/billprovince/dgraph/graphql/schema"
+	"github.com/billprovince/dgraph/x"
 )
 
 // Poller is used to poll user subscription query.

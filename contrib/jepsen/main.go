@@ -45,7 +45,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/dgraph-io/dgraph/contrib/jepsen/browser"
+	"github.com/billprovince/dgraph/contrib/jepsen/browser"
 )
 
 type jepsenTest struct {

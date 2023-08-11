@@ -26,7 +26,7 @@ import (
 	"go.etcd.io/etcd/raft/raftpb"
 
 	"github.com/dgraph-io/badger/v4/y"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/x"
 	"github.com/dgraph-io/ristretto/z"
 )
 

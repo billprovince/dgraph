@@ -8,7 +8,7 @@
  * may not use this file except in compliance with the License. You
  * may obtain a copy of the License at
  *
- *     https://github.com/dgraph-io/dgraph/blob/main/licenses/DCL.txt
+ *     https://github.com/billprovince/dgraph/blob/main/licenses/DCL.txt
  */
 
 package worker
@@ -24,8 +24,8 @@ import (
 	"github.com/golang/glog"
 	"github.com/pkg/errors"
 
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/x"
 )
 
 func verifyManifests(manifests []*Manifest) error {
@@ -165,7 +165,7 @@ func getConsolidatedManifest(h UriHandler, uri *url.URL) (*MasterManifest, error
 // the drop data/attr operation.
 // If the manifest version is 2103, convert the format of predicate from <ns bytes>|<attr> to
 // <ns string>-<attr>. This is because of a bug for namespace greater than 127.
-// See https://github.com/dgraph-io/dgraph/pull/7810
+// See https://github.com/billprovince/dgraph/pull/7810
 // NOTE: Do not use the upgraded manifest to overwrite the non-upgraded manifest.
 func upgradeManifest(m *Manifest) error {
 	switch m.Version {

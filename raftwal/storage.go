@@ -26,7 +26,7 @@ import (
 	"go.etcd.io/etcd/raft/raftpb"
 	"golang.org/x/net/trace"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/x"
 )
 
 // DiskStorage handles disk access and writing for the RAFT write-ahead log.

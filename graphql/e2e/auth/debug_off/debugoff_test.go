@@ -13,10 +13,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/graphql/authorization"
-	"github.com/dgraph-io/dgraph/graphql/e2e/common"
-	"github.com/dgraph-io/dgraph/testutil"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/graphql/authorization"
+	"github.com/billprovince/dgraph/graphql/e2e/common"
+	"github.com/billprovince/dgraph/testutil"
+	"github.com/billprovince/dgraph/x"
 )
 
 var (

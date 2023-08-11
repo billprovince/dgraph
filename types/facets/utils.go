@@ -25,9 +25,9 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/dgraph-io/dgo/v230/protos/api"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/tok"
-	"github.com/dgraph-io/dgraph/types"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/tok"
+	"github.com/billprovince/dgraph/types"
 )
 
 // SortAndValidate sorts And validates the facets.

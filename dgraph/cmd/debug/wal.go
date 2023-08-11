@@ -27,9 +27,9 @@ import (
 	"go.etcd.io/etcd/raft"
 	"go.etcd.io/etcd/raft/raftpb"
 
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/raftwal"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/raftwal"
+	"github.com/billprovince/dgraph/x"
 )
 
 func printEntry(es raftpb.Entry, pending map[uint64]bool, isZero bool) {

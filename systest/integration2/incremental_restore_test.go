@@ -28,8 +28,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/dgraph-io/dgo/v230/protos/api"
-	"github.com/dgraph-io/dgraph/dgraphtest"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/dgraphtest"
+	"github.com/billprovince/dgraph/x"
 )
 
 func TestIncrementalRestore(t *testing.T) {

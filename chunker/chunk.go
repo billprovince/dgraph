@@ -30,9 +30,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/dgraph-io/dgraph/ee/enc"
-	"github.com/dgraph-io/dgraph/lex"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/ee/enc"
+	"github.com/billprovince/dgraph/lex"
+	"github.com/billprovince/dgraph/x"
 )
 
 // Chunker describes the interface to parse and process the input to the live and bulk loaders.

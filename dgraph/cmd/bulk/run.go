@@ -32,12 +32,12 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/dgraph-io/badger/v4"
-	"github.com/dgraph-io/dgraph/ee"
-	"github.com/dgraph-io/dgraph/filestore"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/tok"
-	"github.com/dgraph-io/dgraph/worker"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/ee"
+	"github.com/billprovince/dgraph/filestore"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/tok"
+	"github.com/billprovince/dgraph/worker"
+	"github.com/billprovince/dgraph/x"
 	"github.com/dgraph-io/ristretto/z"
 )
 

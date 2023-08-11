@@ -23,9 +23,9 @@ import (
 
 	"github.com/golang/glog"
 
-	"github.com/dgraph-io/dgraph/edgraph"
-	"github.com/dgraph-io/dgraph/graphql/resolve"
-	"github.com/dgraph-io/dgraph/graphql/schema"
+	"github.com/billprovince/dgraph/edgraph"
+	"github.com/billprovince/dgraph/graphql/resolve"
+	"github.com/billprovince/dgraph/graphql/schema"
 )
 
 func resolveResetPassword(ctx context.Context, m schema.Mutation) (*resolve.Resolved, bool) {

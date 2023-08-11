@@ -31,13 +31,13 @@ import (
 	"github.com/pkg/errors"
 	"go.opencensus.io/trace"
 
-	"github.com/dgraph-io/dgraph/edgraph"
-	"github.com/dgraph-io/dgraph/ee/audit"
-	"github.com/dgraph-io/dgraph/graphql/api"
-	"github.com/dgraph-io/dgraph/graphql/resolve"
-	"github.com/dgraph-io/dgraph/graphql/schema"
-	"github.com/dgraph-io/dgraph/graphql/subscription"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/edgraph"
+	"github.com/billprovince/dgraph/ee/audit"
+	"github.com/billprovince/dgraph/graphql/api"
+	"github.com/billprovince/dgraph/graphql/resolve"
+	"github.com/billprovince/dgraph/graphql/schema"
+	"github.com/billprovince/dgraph/graphql/subscription"
+	"github.com/billprovince/dgraph/x"
 	"github.com/dgraph-io/graphql-transport-ws/graphqlws"
 )
 

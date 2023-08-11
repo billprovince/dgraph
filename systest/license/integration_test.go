@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/dgraph-io/dgraph/dgraphtest"
+	"github.com/billprovince/dgraph/dgraphtest"
 )
 
 type LicenseTestSuite struct {

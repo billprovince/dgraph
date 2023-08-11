@@ -25,8 +25,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/dgraph-io/dgraph/graphql/authorization"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/graphql/authorization"
+	"github.com/billprovince/dgraph/x"
 	"github.com/golang/glog"
 )
 

@@ -28,8 +28,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/dgraph-io/dgo/v230/protos/api"
-	"github.com/dgraph-io/dgraph/dgraphtest"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/dgraphtest"
+	"github.com/billprovince/dgraph/x"
 )
 
 func TestBigMathValue(t *testing.T) {
@@ -799,7 +799,7 @@ func TestHasFirst(t *testing.T) {
 }
 
 // This test is not working currently, but start working after
-// PR https://github.com/dgraph-io/dgraph/pull/4316 is merged.
+// PR https://github.com/billprovince/dgraph/pull/4316 is merged.
 // func TestHasFirstLangPredicate(t *testing.T) {
 // 	query := `{
 // 		q(func:has(name@lang), orderasc: name, first:5) {

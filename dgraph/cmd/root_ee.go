@@ -8,15 +8,15 @@
  * may not use this file except in compliance with the License. You
  * may obtain a copy of the License at
  *
- *     https://github.com/dgraph-io/dgraph/blob/main/licenses/DCL.txt
+ *     https://github.com/billprovince/dgraph/blob/main/licenses/DCL.txt
  */
 
 package cmd
 
 import (
-	acl "github.com/dgraph-io/dgraph/ee/acl"
-	"github.com/dgraph-io/dgraph/ee/audit"
-	"github.com/dgraph-io/dgraph/ee/backup"
+	acl "github.com/billprovince/dgraph/ee/acl"
+	"github.com/billprovince/dgraph/ee/audit"
+	"github.com/billprovince/dgraph/ee/backup"
 )
 
 func init() {

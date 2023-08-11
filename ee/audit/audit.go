@@ -19,7 +19,7 @@
 
 package audit
 
-import "github.com/dgraph-io/dgraph/x"
+import "github.com/billprovince/dgraph/x"
 
 type AuditConf struct {
 	Dir string

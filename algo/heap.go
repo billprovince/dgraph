@@ -17,7 +17,7 @@
 package algo
 
 import (
-	"github.com/dgraph-io/dgraph/codec"
+	"github.com/billprovince/dgraph/codec"
 )
 
 type elem struct {
