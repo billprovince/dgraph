@@ -24,8 +24,8 @@ import (
 
 	"github.com/golang/glog"
 
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/x"
 )
 
 // Backup implements the Worker interface.

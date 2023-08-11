@@ -23,7 +23,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/dgraph-io/dgo/v230/protos/api"
-	"github.com/dgraph-io/dgraph/dgraphtest"
+	"github.com/billprovince/dgraph/dgraphtest"
 )
 
 func TestNormalizeDirectiveWithNoListResponse(t *testing.T) {

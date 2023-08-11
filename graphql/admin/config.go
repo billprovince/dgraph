@@ -23,9 +23,9 @@ import (
 
 	"github.com/golang/glog"
 
-	"github.com/dgraph-io/dgraph/graphql/resolve"
-	"github.com/dgraph-io/dgraph/graphql/schema"
-	"github.com/dgraph-io/dgraph/worker"
+	"github.com/billprovince/dgraph/graphql/resolve"
+	"github.com/billprovince/dgraph/graphql/schema"
+	"github.com/billprovince/dgraph/worker"
 )
 
 type configInput struct {

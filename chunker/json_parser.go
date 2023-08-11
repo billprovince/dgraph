@@ -31,10 +31,10 @@ import (
 	"github.com/twpayne/go-geom/encoding/geojson"
 
 	"github.com/dgraph-io/dgo/v230/protos/api"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/types/facets"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/types"
+	"github.com/billprovince/dgraph/types/facets"
+	"github.com/billprovince/dgraph/x"
 	"github.com/dgraph-io/simdjson-go"
 )
 

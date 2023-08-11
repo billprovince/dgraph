@@ -26,7 +26,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/graphql/e2e/common"
+	"github.com/billprovince/dgraph/graphql/e2e/common"
 )
 
 func (c *Column) add(t *testing.T, user, role string) {

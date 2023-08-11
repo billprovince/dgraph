@@ -25,9 +25,9 @@ import (
 	"github.com/golang/glog"
 
 	"github.com/dgraph-io/badger/v4"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/raftwal"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/raftwal"
+	"github.com/billprovince/dgraph/x"
 	"github.com/dgraph-io/ristretto/z"
 )
 

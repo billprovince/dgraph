@@ -26,7 +26,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/x"
 )
 
 var (

@@ -38,12 +38,12 @@ import (
 	"github.com/dgraph-io/badger/v4"
 	bpb "github.com/dgraph-io/badger/v4/pb"
 	"github.com/dgraph-io/dgo/v230/protos/api"
-	"github.com/dgraph-io/dgraph/ee/enc"
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/types/facets"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/ee/enc"
+	"github.com/billprovince/dgraph/posting"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/types"
+	"github.com/billprovince/dgraph/types/facets"
+	"github.com/billprovince/dgraph/x"
 	"github.com/dgraph-io/ristretto/z"
 )
 

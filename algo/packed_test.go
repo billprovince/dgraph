@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/codec"
-	"github.com/dgraph-io/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/codec"
+	"github.com/billprovince/dgraph/protos/pb"
 )
 
 func newUidPack(data []uint64) *pb.UidPack {

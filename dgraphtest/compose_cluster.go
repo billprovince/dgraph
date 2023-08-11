@@ -18,7 +18,7 @@ package dgraphtest
 
 import (
 	"github.com/dgraph-io/dgo/v230"
-	"github.com/dgraph-io/dgraph/testutil"
+	"github.com/billprovince/dgraph/testutil"
 )
 
 type ComposeCluster struct{}

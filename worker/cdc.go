@@ -22,7 +22,7 @@ package worker
 import (
 	"math"
 
-	"github.com/dgraph-io/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/protos/pb"
 )
 
 type CDC struct {

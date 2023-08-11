@@ -26,8 +26,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/graphql/e2e/common"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/graphql/e2e/common"
+	"github.com/billprovince/dgraph/x"
 )
 
 const (

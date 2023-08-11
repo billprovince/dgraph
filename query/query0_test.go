@@ -28,8 +28,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/dgraph-io/dgo/v230"
-	"github.com/dgraph-io/dgraph/dgraphtest"
-	"github.com/dgraph-io/dgraph/dql"
+	"github.com/billprovince/dgraph/dgraphtest"
+	"github.com/billprovince/dgraph/dql"
 )
 
 func TestGetUID(t *testing.T) {
@@ -549,7 +549,7 @@ func TestCascadeWithSort(t *testing.T) {
 	require.JSONEq(t, `{"data":{"me":[{"name": "Daryl Dixon","alive": false},{"name": "Rick Grimes","alive": true}]}}`, js)
 }
 
-// Regression test for issue described in https://github.com/dgraph-io/dgraph/pull/8441
+// Regression test for issue described in https://github.com/billprovince/dgraph/pull/8441
 func TestNegativeOffset(t *testing.T) {
 	query := `
 	{

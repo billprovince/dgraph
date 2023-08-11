@@ -26,7 +26,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/dgraph-io/dgo/v230/protos/api"
-	"github.com/dgraph-io/dgraph/testutil"
+	"github.com/billprovince/dgraph/testutil"
 )
 
 func TestPlugins(t *testing.T) {

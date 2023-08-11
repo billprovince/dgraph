@@ -31,12 +31,12 @@ import (
 
 	badgerpb "github.com/dgraph-io/badger/v4/pb"
 	"github.com/dgraph-io/dgo/v230/protos/api"
-	"github.com/dgraph-io/dgraph/conn"
-	"github.com/dgraph-io/dgraph/ee/enc"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/raftwal"
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/conn"
+	"github.com/billprovince/dgraph/ee/enc"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/raftwal"
+	"github.com/billprovince/dgraph/schema"
+	"github.com/billprovince/dgraph/x"
 	"github.com/dgraph-io/ristretto/z"
 )
 
@@ -118,7 +118,7 @@ func StartRaftNodes(walStore *raftwal.DiskStorage, bindall bool) {
 	var connState *pb.ConnectionState
 	var err error
 
-	for { // Keep on retrying. See: https://github.com/dgraph-io/dgraph/issues/2289
+	for { // Keep on retrying. See: https://github.com/billprovince/dgraph/issues/2289
 		pl := gr.connToZeroLeader()
 		if pl == nil {
 			continue
@@ -723,7 +723,7 @@ func (g *groupi) connToZeroLeader() *conn.Pool {
 	// No leader found. Let's get the latest membership state from Zero.
 	delay := connBaseDelay
 	maxHalfDelay := time.Second
-	for i := 0; ; i++ { // Keep on retrying. See: https://github.com/dgraph-io/dgraph/issues/2289
+	for i := 0; ; i++ { // Keep on retrying. See: https://github.com/billprovince/dgraph/issues/2289
 		if g.IsClosed() {
 			return nil
 		}

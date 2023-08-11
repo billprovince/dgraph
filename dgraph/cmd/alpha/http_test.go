@@ -35,10 +35,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/query"
-	"github.com/dgraph-io/dgraph/testutil"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/query"
+	"github.com/billprovince/dgraph/testutil"
+	"github.com/billprovince/dgraph/x"
 )
 
 type res struct {

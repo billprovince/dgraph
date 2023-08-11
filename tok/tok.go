@@ -28,8 +28,8 @@ import (
 	"golang.org/x/crypto/blake2b"
 	"golang.org/x/text/collate"
 
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/types"
+	"github.com/billprovince/dgraph/x"
 )
 
 // Tokenizer identifiers are unique and can't be reused.

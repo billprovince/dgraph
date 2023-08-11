@@ -38,13 +38,13 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/dgraph-io/dgraph/conn"
-	"github.com/dgraph-io/dgraph/ee/audit"
-	"github.com/dgraph-io/dgraph/ee/enc"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/raftwal"
-	"github.com/dgraph-io/dgraph/worker"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/conn"
+	"github.com/billprovince/dgraph/ee/audit"
+	"github.com/billprovince/dgraph/ee/enc"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/raftwal"
+	"github.com/billprovince/dgraph/worker"
+	"github.com/billprovince/dgraph/x"
 	"github.com/dgraph-io/ristretto/z"
 )
 

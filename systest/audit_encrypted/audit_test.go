@@ -26,8 +26,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/testutil"
-	"github.com/dgraph-io/dgraph/testutil/testaudit"
+	"github.com/billprovince/dgraph/testutil"
+	"github.com/billprovince/dgraph/testutil/testaudit"
 )
 
 func TestZeroAuditEncrypted(t *testing.T) {

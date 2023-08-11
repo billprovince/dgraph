@@ -32,9 +32,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/dgraph-io/dgraph/conn"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/testutil"
+	"github.com/billprovince/dgraph/conn"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/testutil"
 	"github.com/dgraph-io/ristretto/z"
 )
 

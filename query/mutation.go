@@ -26,11 +26,11 @@ import (
 	otrace "go.opencensus.io/trace"
 
 	"github.com/dgraph-io/dgo/v230/protos/api"
-	"github.com/dgraph-io/dgraph/dql"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/types/facets"
-	"github.com/dgraph-io/dgraph/worker"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/dql"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/types/facets"
+	"github.com/billprovince/dgraph/worker"
+	"github.com/billprovince/dgraph/x"
 )
 
 // ApplyMutations performs the required edge expansions and forwards the results to the

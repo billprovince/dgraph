@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/types"
+	"github.com/billprovince/dgraph/types"
 )
 
 func TestProcessBinary(t *testing.T) {

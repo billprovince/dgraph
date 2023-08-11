@@ -28,10 +28,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
 
-	"github.com/dgraph-io/dgraph/graphql/dgraph"
-	"github.com/dgraph-io/dgraph/graphql/schema"
-	"github.com/dgraph-io/dgraph/graphql/test"
-	"github.com/dgraph-io/dgraph/testutil"
+	"github.com/billprovince/dgraph/graphql/dgraph"
+	"github.com/billprovince/dgraph/graphql/schema"
+	"github.com/billprovince/dgraph/graphql/test"
+	"github.com/billprovince/dgraph/testutil"
 	_ "github.com/dgraph-io/gqlparser/v2/validator/rules" // make gql validator init() all rules
 )
 

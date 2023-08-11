@@ -8,7 +8,7 @@
  * may not use this file except in compliance with the License. You
  * may obtain a copy of the License at
  *
- *     https://github.com/dgraph-io/dgraph/blob/main/licenses/DCL.txt
+ *     https://github.com/billprovince/dgraph/blob/main/licenses/DCL.txt
  */
 
 package ee
@@ -23,7 +23,7 @@ import (
 	"github.com/hashicorp/vault/api"
 	"github.com/spf13/viper"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/x"
 	"github.com/dgraph-io/ristretto/z"
 )
 

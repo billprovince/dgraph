@@ -30,7 +30,7 @@ import (
 
 	"github.com/dgraph-io/dgo/v230"
 	"github.com/dgraph-io/dgo/v230/protos/api"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/x"
 )
 
 type Rule struct {

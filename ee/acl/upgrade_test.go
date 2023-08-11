@@ -7,7 +7,7 @@
  * may not use this file except in compliance with the License. You
  * may obtain a copy of the License at
  *
- *     https://github.com/dgraph-io/dgraph/blob/main/licenses/DCL.txt
+ *     https://github.com/billprovince/dgraph/blob/main/licenses/DCL.txt
  */
 
 package acl
@@ -20,8 +20,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/dgraph-io/dgraph/dgraphtest"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/dgraphtest"
+	"github.com/billprovince/dgraph/x"
 )
 
 type AclTestSuite struct {

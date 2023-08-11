@@ -6,9 +6,9 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 
-	"github.com/dgraph-io/dgraph/conn"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/conn"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/x"
 )
 
 func forwardAssignUidsToZero(ctx context.Context, in *pb.Num) (*pb.AssignedIds, error) {

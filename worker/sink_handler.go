@@ -31,7 +31,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/xdg/scram"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/x"
 	"github.com/dgraph-io/ristretto/z"
 )
 

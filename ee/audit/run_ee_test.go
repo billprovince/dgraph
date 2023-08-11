@@ -26,7 +26,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/testutil/testaudit"
+	"github.com/billprovince/dgraph/testutil/testaudit"
 )
 
 // we will truncate copy of encrypted audit log file

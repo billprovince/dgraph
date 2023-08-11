@@ -28,10 +28,10 @@ import (
 	tag "go.opencensus.io/tag"
 	otrace "go.opencensus.io/trace"
 
-	"github.com/dgraph-io/dgraph/conn"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/conn"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/schema"
+	"github.com/billprovince/dgraph/x"
 )
 
 const baseTimeout time.Duration = 4 * time.Second

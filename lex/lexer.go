@@ -22,7 +22,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/x"
 )
 
 // EOF indicates the end of the an input.

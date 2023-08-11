@@ -43,8 +43,8 @@ import (
 	"github.com/spf13/pflag"
 	"golang.org/x/tools/go/packages"
 
-	"github.com/dgraph-io/dgraph/testutil"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/testutil"
+	"github.com/billprovince/dgraph/x"
 	"github.com/dgraph-io/ristretto/z"
 )
 
@@ -324,7 +324,7 @@ func runTestsFor(ctx context.Context, pkg, prefix string) error {
 }
 
 func hasTestFiles(pkg string) bool {
-	dir := strings.Replace(pkg, "github.com/dgraph-io/dgraph/", "", 1)
+	dir := strings.Replace(pkg, "github.com/billprovince/dgraph/", "", 1)
 	dir = filepath.Join(*baseDir, dir)
 
 	hasTests := false
@@ -527,7 +527,7 @@ func (o *outputCatcher) Print() {
 		if dur.dur < time.Second {
 			continue
 		}
-		pkg := strings.Replace(dur.pkg, "github.com/dgraph-io/dgraph/", "", 1)
+		pkg := strings.Replace(dur.pkg, "github.com/billprovince/dgraph/", "", 1)
 		fmt.Printf("[%6s]%s[%d] %s took: %s\n", dur.ts.Sub(baseTs).Round(time.Second),
 			strings.Repeat("   ", int(dur.threadId)), dur.threadId, pkg,
 			dur.dur.Round(time.Second))
@@ -545,14 +545,14 @@ type task struct {
 
 // for custom cluster tests (i.e. those not using default docker-compose.yml)
 func composeFileFor(pkg string) string {
-	dir := strings.Replace(pkg, "github.com/dgraph-io/dgraph/", "", 1)
+	dir := strings.Replace(pkg, "github.com/billprovince/dgraph/", "", 1)
 	return filepath.Join(*baseDir, dir, "docker-compose.yml")
 }
 
 func getPackages() []task {
 	has := func(list []string, in string) bool {
 		for _, l := range list {
-			if len(l) > 0 && strings.Contains(in+"/", "github.com/dgraph-io/dgraph/"+l+"/") {
+			if len(l) > 0 && strings.Contains(in+"/", "github.com/billprovince/dgraph/"+l+"/") {
 				return true
 			}
 		}
@@ -990,7 +990,7 @@ func run() error {
 	}()
 	signal.Notify(sdCh, os.Interrupt, syscall.SIGINT, syscall.SIGTERM)
 
-	// pkgs, err := packages.Load(nil, "github.com/dgraph-io/dgraph/...")
+	// pkgs, err := packages.Load(nil, "github.com/billprovince/dgraph/...")
 	go func() {
 		defer close(testCh)
 		valid := getPackages()

@@ -24,7 +24,7 @@ import (
 	"github.com/blevesearch/bleve/analysis/tokenizer/unicode"
 	"github.com/blevesearch/bleve/registry"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/x"
 )
 
 const unicodenormName = "unicodenorm_nfkc"

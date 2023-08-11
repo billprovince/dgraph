@@ -22,10 +22,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.etcd.io/etcd/raft/raftpb"
 
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/raftwal"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/posting"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/raftwal"
+	"github.com/billprovince/dgraph/x"
 )
 
 func getEntryForMutation(index, startTs uint64) raftpb.Entry {

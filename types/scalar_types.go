@@ -22,7 +22,7 @@ import (
 
 	"github.com/twpayne/go-geom"
 
-	"github.com/dgraph-io/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/protos/pb"
 )
 
 const nanoSecondsInSec = 1000000000

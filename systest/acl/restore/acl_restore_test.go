@@ -18,8 +18,8 @@ import (
 
 	"github.com/dgraph-io/dgo/v230"
 	"github.com/dgraph-io/dgo/v230/protos/api"
-	"github.com/dgraph-io/dgraph/graphql/e2e/common"
-	"github.com/dgraph-io/dgraph/testutil"
+	"github.com/billprovince/dgraph/graphql/e2e/common"
+	"github.com/billprovince/dgraph/testutil"
 )
 
 // disableDraining disables draining mode before each test for increased reliability.

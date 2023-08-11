@@ -30,13 +30,13 @@ import (
 
 	bpb "github.com/dgraph-io/badger/v4/pb"
 	"github.com/dgraph-io/badger/v4/y"
-	"github.com/dgraph-io/dgraph/algo"
-	"github.com/dgraph-io/dgraph/codec"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/types/facets"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/algo"
+	"github.com/billprovince/dgraph/codec"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/schema"
+	"github.com/billprovince/dgraph/types"
+	"github.com/billprovince/dgraph/types/facets"
+	"github.com/billprovince/dgraph/x"
 	"github.com/dgraph-io/ristretto/z"
 )
 

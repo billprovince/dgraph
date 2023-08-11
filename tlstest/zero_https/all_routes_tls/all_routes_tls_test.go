@@ -15,7 +15,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/testutil"
+	"github.com/billprovince/dgraph/testutil"
 )
 
 type testCase struct {

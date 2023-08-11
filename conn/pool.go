@@ -31,8 +31,8 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 
 	"github.com/dgraph-io/dgo/v230/protos/api"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/x"
 	"github.com/dgraph-io/ristretto/z"
 )
 

@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dgraph-io/dgraph/dgraphtest"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/dgraphtest"
+	"github.com/billprovince/dgraph/x"
 	"github.com/stretchr/testify/require"
 )
 

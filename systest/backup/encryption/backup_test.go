@@ -35,9 +35,9 @@ import (
 
 	"github.com/dgraph-io/badger/v4/options"
 	"github.com/dgraph-io/dgo/v230/protos/api"
-	"github.com/dgraph-io/dgraph/testutil"
-	"github.com/dgraph-io/dgraph/worker"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/testutil"
+	"github.com/billprovince/dgraph/worker"
+	"github.com/billprovince/dgraph/x"
 )
 
 var (

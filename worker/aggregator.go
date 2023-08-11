@@ -17,7 +17,7 @@
 package worker
 
 import (
-	"github.com/dgraph-io/dgraph/types"
+	"github.com/billprovince/dgraph/types"
 )
 
 func couldApplyAggregatorOn(agrtr string, typ types.TypeID) bool {

@@ -29,8 +29,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/dgraph-io/dgraph/dgraphtest"
-	"github.com/dgraph-io/dgraph/testutil"
+	"github.com/billprovince/dgraph/dgraphtest"
+	"github.com/billprovince/dgraph/testutil"
 )
 
 func TestRecurseError(t *testing.T) {
@@ -957,7 +957,7 @@ func TestShortestPathRev(t *testing.T) {
 		js)
 }
 
-// Regression test for https://github.com/dgraph-io/dgraph/issues/3657.
+// Regression test for https://github.com/billprovince/dgraph/issues/3657.
 func TestShortestPathPassword(t *testing.T) {
 	query := `
 		{
@@ -3232,7 +3232,7 @@ func TestMultiRegexInFilter2(t *testing.T) {
 	`
 
 	// run 20 times ensure that there is no data race
-	// https://github.com/dgraph-io/dgraph/issues/4030
+	// https://github.com/billprovince/dgraph/issues/4030
 	for i := 0; i < 20; i++ {
 		res := processQueryNoErr(t, query)
 		require.JSONEq(t, `{"data": {"q": [{"firstName": "Han", "lastName":"Solo"}]}}`, res)

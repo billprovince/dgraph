@@ -50,16 +50,16 @@ import (
 
 	"github.com/dgraph-io/badger/v4"
 	"github.com/dgraph-io/dgo/v230/protos/api"
-	"github.com/dgraph-io/dgraph/edgraph"
-	"github.com/dgraph-io/dgraph/ee"
-	"github.com/dgraph-io/dgraph/ee/audit"
-	"github.com/dgraph-io/dgraph/ee/enc"
-	"github.com/dgraph-io/dgraph/graphql/admin"
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/tok"
-	"github.com/dgraph-io/dgraph/worker"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/edgraph"
+	"github.com/billprovince/dgraph/ee"
+	"github.com/billprovince/dgraph/ee/audit"
+	"github.com/billprovince/dgraph/ee/enc"
+	"github.com/billprovince/dgraph/graphql/admin"
+	"github.com/billprovince/dgraph/posting"
+	"github.com/billprovince/dgraph/schema"
+	"github.com/billprovince/dgraph/tok"
+	"github.com/billprovince/dgraph/worker"
+	"github.com/billprovince/dgraph/x"
 	_ "github.com/dgraph-io/gqlparser/v2/validator/rules" // make gql validator init() all rules
 	"github.com/dgraph-io/ristretto/z"
 )
@@ -265,7 +265,7 @@ they form a Raft group and provide synchronous replication.
 		Head("Feature flags to enable various experimental features").
 		Flag("normalize-compatibility-mode", "configure @normalize response formatting."+
 			" 'v20': returns values with repeated key for fields with same alias (same as v20.11)."+
-			" For more details, see https://github.com/dgraph-io/dgraph/pull/7639").
+			" For more details, see https://github.com/billprovince/dgraph/pull/7639").
 		String())
 }
 

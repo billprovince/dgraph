@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/dgraph-io/dgraph/testutil"
+	"github.com/billprovince/dgraph/testutil"
 	"github.com/stretchr/testify/require"
 )
 

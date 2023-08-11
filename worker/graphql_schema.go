@@ -26,10 +26,10 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/dgraph-io/dgraph/conn"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/conn"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/schema"
+	"github.com/billprovince/dgraph/x"
 )
 
 const (

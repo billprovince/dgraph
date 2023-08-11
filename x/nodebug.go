@@ -22,7 +22,7 @@ package x
 import (
 	"github.com/dgraph-io/badger/v4"
 	bpb "github.com/dgraph-io/badger/v4/pb"
-	"github.com/dgraph-io/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/protos/pb"
 )
 
 // PrintRollup prints information about any rollup that happen

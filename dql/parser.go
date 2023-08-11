@@ -26,9 +26,9 @@ import (
 	"github.com/golang/glog"
 	"github.com/pkg/errors"
 
-	"github.com/dgraph-io/dgraph/lex"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/lex"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/x"
 )
 
 const (

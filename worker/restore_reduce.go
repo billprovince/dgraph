@@ -8,7 +8,7 @@
  * may not use this file except in compliance with the License. You
  * may obtain a copy of the License at
  *
- *     https://github.com/dgraph-io/dgraph/blob/main/licenses/DCL.txt
+ *     https://github.com/billprovince/dgraph/blob/main/licenses/DCL.txt
  */
 
 package worker
@@ -31,8 +31,8 @@ import (
 	"github.com/golang/snappy"
 
 	"github.com/dgraph-io/badger/v4/y"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/x"
 	"github.com/dgraph-io/ristretto/z"
 )
 

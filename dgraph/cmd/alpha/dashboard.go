@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/x"
 )
 
 type keyword struct {

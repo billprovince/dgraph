@@ -25,7 +25,7 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/dgraph-io/dgraph/graphql/schema"
+	"github.com/billprovince/dgraph/graphql/schema"
 )
 
 // Reference: https://github.com/apollographql/subscriptions-transport-ws/blob/master/PROTOCOL.md

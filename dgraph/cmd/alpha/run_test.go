@@ -46,12 +46,12 @@ import (
 
 	"github.com/dgraph-io/dgo/v230"
 	"github.com/dgraph-io/dgo/v230/protos/api"
-	"github.com/dgraph-io/dgraph/dql"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/query"
-	"github.com/dgraph-io/dgraph/schema"
-	"github.com/dgraph-io/dgraph/testutil"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/dql"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/query"
+	"github.com/billprovince/dgraph/schema"
+	"github.com/billprovince/dgraph/testutil"
+	"github.com/billprovince/dgraph/x"
 )
 
 type defaultContextKey int

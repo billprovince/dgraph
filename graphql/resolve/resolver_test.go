@@ -22,9 +22,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dgraph-io/dgraph/graphql/schema"
-	"github.com/dgraph-io/dgraph/graphql/test"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/graphql/schema"
+	"github.com/billprovince/dgraph/graphql/test"
+	"github.com/billprovince/dgraph/x"
 )
 
 func TestErrorOnIncorrectValueType(t *testing.T) {

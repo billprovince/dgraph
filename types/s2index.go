@@ -23,7 +23,7 @@ import (
 	"github.com/pkg/errors"
 	geom "github.com/twpayne/go-geom"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/x"
 )
 
 func parentCoverTokens(parents s2.CellUnion, cover s2.CellUnion) []string {

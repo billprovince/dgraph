@@ -25,9 +25,9 @@ import (
 	"github.com/golang/glog"
 	"github.com/spf13/cobra"
 
-	"github.com/dgraph-io/dgraph/ee"
-	"github.com/dgraph-io/dgraph/ee/enc"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/ee"
+	"github.com/billprovince/dgraph/ee/enc"
+	"github.com/billprovince/dgraph/x"
 )
 
 type options struct {

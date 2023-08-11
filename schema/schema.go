@@ -30,10 +30,10 @@ import (
 
 	"github.com/dgraph-io/badger/v4"
 	badgerpb "github.com/dgraph-io/badger/v4/pb"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/tok"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/tok"
+	"github.com/billprovince/dgraph/types"
+	"github.com/billprovince/dgraph/x"
 )
 
 var (

@@ -8,7 +8,7 @@
  * may not use this file except in compliance with the License. You
  * may obtain a copy of the License at
  *
- *     https://github.com/dgraph-io/dgraph/blob/main/licenses/DCL.txt
+ *     https://github.com/billprovince/dgraph/blob/main/licenses/DCL.txt
  */
 package audit
 
@@ -26,8 +26,8 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/dgraph-io/dgraph/graphql/schema"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/graphql/schema"
+	"github.com/billprovince/dgraph/x"
 	"github.com/dgraph-io/gqlparser/v2/ast"
 	"github.com/dgraph-io/gqlparser/v2/parser"
 

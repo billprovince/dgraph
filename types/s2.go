@@ -24,7 +24,7 @@ import (
 	geom "github.com/twpayne/go-geom"
 	"github.com/twpayne/go-geom/encoding/geojson"
 
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/x"
 )
 
 func edgesCrossPoints(l *s2.Loop, pts []s2.Point) bool {

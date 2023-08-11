@@ -34,16 +34,16 @@ import (
 
 	"github.com/dgraph-io/badger/v4"
 	"github.com/dgraph-io/dgo/v230/protos/api"
-	"github.com/dgraph-io/dgraph/algo"
-	"github.com/dgraph-io/dgraph/conn"
-	"github.com/dgraph-io/dgraph/posting"
-	"github.com/dgraph-io/dgraph/protos/pb"
-	"github.com/dgraph-io/dgraph/schema"
-	ctask "github.com/dgraph-io/dgraph/task"
-	"github.com/dgraph-io/dgraph/tok"
-	"github.com/dgraph-io/dgraph/types"
-	"github.com/dgraph-io/dgraph/types/facets"
-	"github.com/dgraph-io/dgraph/x"
+	"github.com/billprovince/dgraph/algo"
+	"github.com/billprovince/dgraph/conn"
+	"github.com/billprovince/dgraph/posting"
+	"github.com/billprovince/dgraph/protos/pb"
+	"github.com/billprovince/dgraph/schema"
+	ctask "github.com/billprovince/dgraph/task"
+	"github.com/billprovince/dgraph/tok"
+	"github.com/billprovince/dgraph/types"
+	"github.com/billprovince/dgraph/types/facets"
+	"github.com/billprovince/dgraph/x"
 )
 
 func invokeNetworkRequest(ctx context.Context, addr string,
